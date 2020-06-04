@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.css" rel="stylesheet">
+    <title>UserMode</title>
+    <style>
+        body{
+            background-image:url(/static/images/dark_bcg.jpg);
+            font-size: large;
+            font-style: oblique;
+            color: antiquewhite;
+        }
+        .title{
+            font-size: xx-large;
+        }
+        .nav{
+            font-size: x-small;
+        }
+        .imgButton{
+            margin-bottom: 20%;
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav"><p>当前位置:<a href="/">商品销售信息系统</a>->用户模式主界面</p></div>
+<div class="title">
+    <div>
+        <p id="title">User Space</p>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-4" id="leftPart">
+        <img src="/static/img/ddan.jpg" class="imgButton" alt="" id="L1" onclick='turn(`"OrderPre"`)'>
+
+
+    </div>
+    <div class="col-md-4" id="rightPart">
+
+    </div>
+</div>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script src="/static/js/manMode.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.css" rel="stylesheet">
+    <title>ManagerMode</title>
+    <style>
+        body{
+            background-image:url(/static/images/dark_bcg.jpg);
+            font-size: large;
+            font-style: oblique;
+            color: antiquewhite;
+
+        }
+        .title{
+            font-size: xx-large;
+        }
+        .nav{
+            font-size: x-small;
+        }
+        .imgButton{
+            margin-bottom: 20%;
+            height: 350px;
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav"><p>当前位置:<a href="/">商品销售信息系统</a>->管理者模式主界面</p></div>
+<div class="title">
+    <div>
+        <p id="title">Manager Sapce</p>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-4" id="leftPart">
+        <img src="/static/img/L1.jpg" class="imgButton" alt="" id="L1" onclick="turn('Good')">
+        <img src="/static/img/L2.jpg" class="imgButton" alt="" id="L2" onclick="turn('Brand')">
+
+    </div>
+    <div class="col-md-4" id="rightPart">
+        <img src="/static/img/R1.jpg" class="imgButton" alt="" id="R1" onclick="turn('Class_Scale')">
+        <img src="/static/img/R2.jpg" class="imgButton" alt="" id="R2" onclick="turn('Supplier')">
+    </div>
+</div>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script src="/static/js/manMode.js"></script>
+
+</body>
+</html>
